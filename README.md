@@ -1,57 +1,61 @@
-# Sanatorio_Pasteur_Equipos
-Resumen General
-Se analizaron los datos de equipos categorizados por estado funcional (“Funciona”, “No
-Funciona” y “Funciona con Fallas”), ubicación (Pasteur, Misiones, C.S. Javier) y
-características de marca y modelo. En total, se revisaron 61 equipos distribuidos de la
-siguiente manera:
-● Equipos funcionales: 50 (82%).
-● Equipos no funcionales: 5 (8%).
-● Equipos funcionales con fallas: 6 (10%).
-Análisis por Ubicación
-Pasteur
-● Total de equipos: 45.
-● Distribución por estado:
-○ Funcionales: 37 (82,22%).
-○ No funcionales: 5 (11,11%).
-○ Funcionales con fallas: 3 (6,67%).
-Misiones
-● Total de equipos: 6.
-● Distribución por estado:
-○ Funcionales: 6 (100%).
-○ No funcionales: 0.
-○ Funcionales con fallas: 0.
-C.S. Javier
-● Total de equipos: 10.
-● Distribución por estado:
-○ Funcionales: 7 (70%).
-○ No funcionales: 0.
-○ Funcionales con fallas: 3 (30%).
-Equipos Funcionales con Fallas
-A continuación se detalla la información de los equipos reportados como funcionales con
-fallas:
-● ECÓGRAFOS
-○ Marca: Philips
-○ Modelos y fallas reportadas:
-■ I 33 Philips: (No enciende, enviado a Agimed).
-■ Casos: 3 equipos.
-■ VIVID 7 PRO Philips: (Falla de encendido esporádicamente).
-■ Casos: 3 equipos.
-Hallazgos Clave
-1. Pasteur concentra la mayor cantidad de equipos, pero también el mayor número de
-equipos no funcionales.
-2. Misiones se destaca por tener todos sus equipos en perfecto estado funcional.
-3. C.S. Javier presenta una proporción significativa de equipos con fallas (30%).
-4. Las marcas más frecuentes en todos los sitios son Philips, AGFA y Siemens,
-mientras que los modelos varían considerablemente según la ubicación.
-Recomendaciones
-1. Priorizar el mantenimiento en Pasteur, ya que es la ubicación con mayor cantidad de
-equipos no funcionales.
-2. Realizar revisiones preventivas en C.S. Javier para abordar los equipos que
-funcionan con fallas y evitar su deterioro completo.
-3. Implementar un sistema de seguimiento continuo de los modelos más problemáticos
-y concentrar esfuerzos en marcas o modelos con alta recurrencia de fallas.
-Conclusión
-El análisis evidencia que, si bien la mayoría de los equipos están en condiciones
-funcionales, existen áreas críticas que requieren intervención urgente. Un enfoque proactivo
-en el mantenimiento y una gestión centralizada de los equipos podría optimizar su
-desempeño y alargar su vida útil
+📊 Análisis de Equipos Médicos por Ubicación – Power BI
+📌 Descripción del Proyecto
+Este proyecto consiste en un análisis detallado del estado funcional de equipos médicos del Sanatorio Pasteur de Catamarca y otras dos sedes. El objetivo principal fue identificar áreas críticas para optimizar el mantenimiento preventivo y mejorar la gestión operativa de los dispositivos.
+
+A partir de un conjunto de datos con información de 61 equipos, se diseñó un dashboard interactivo en Power BI que permite visualizar el estado de los equipos, su distribución por ubicación y las marcas/modelos más propensos a fallas.
+
+🎯 Objetivo del Proyecto
+Analizar el estado funcional de los equipos (Funciona, No Funciona, Funciona con Fallas).
+
+Identificar patrones de fallas según la ubicación, marca y modelo.
+
+Desarrollar un dashboard en Power BI que facilite el seguimiento y la toma de decisiones.
+
+Proporcionar recomendaciones para mejorar el mantenimiento y la gestión de equipos críticos.
+
+🔍 Análisis Realizado
+Procesamiento de Datos
+
+Limpieza y transformación de los datos con Power Query.
+
+Unificación de información desde múltiples ubicaciones (Pasteur, Misiones, C.S. Javier).
+
+Modelado de Datos
+
+Creación de relaciones entre tablas (equipos, ubicación, estado funcional).
+
+Optimización del modelo para un rendimiento eficiente en Power BI.
+
+Medidas DAX Implementadas
+
+Total de equipos por estado (Funciona, No Funciona, Funciona con Fallas).
+
+Porcentaje de equipos funcionales por sede.
+
+Identificación de las marcas y modelos más propensos a fallas.
+
+📊 Resultados Clave
+82% de los equipos están funcionales, 8% no funciona y 10% presenta fallas.
+
+Pasteur es la sede con más equipos no funcionales (11,11%).
+
+Misiones destaca por tener el 100% de sus equipos operativos.
+
+Los ecógrafos Philips fueron los dispositivos con más fallas recurrentes.
+
+🛠️ Tecnologías Utilizadas
+Power BI Desktop: Creación del dashboard interactivo.
+
+Power Query: Limpieza y transformación de los datos.
+
+DAX (Data Analysis Expressions): Cálculos y medidas personalizadas.
+
+Excel: Procesamiento previo y exploración inicial de los datos.
+
+📈 Mejoras Futuras
+Implementar un sistema automatizado de actualización de datos en Power BI.
+
+Ampliar el análisis con tendencias históricas de fallas para predicción.
+
+Integrar alertas para el seguimiento de equipos críticos.
+
